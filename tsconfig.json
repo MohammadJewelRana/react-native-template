@@ -1,3 +1,14 @@
 {
-  "extends": "@react-native/typescript-config"
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "target": "esnext",
+    "types": ["nativewind/types"],
+        "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "include": ["**/*.ts", "**/*.tsx", "nativewind.d.ts"],
+  
 }
